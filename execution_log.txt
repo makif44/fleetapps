@@ -351,3 +351,19 @@ INFO    2020-04-13 16:48:12,042 [pool-1-thread-2] com.vytrack.stepDef.Hook  - ##
 INFO    2020-04-13 16:48:26,242 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Cleanup!
 INFO    2020-04-13 16:48:26,242 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test completed!
 INFO    2020-04-13 16:48:26,242 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 22:59:20,068 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 22:59:20,069 [main] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-13 22:59:20,073 [main] com.vytrack.utilities.Driver  - TRYING TO CREATE DRIVER
+INFO    2020-04-13 22:59:26,007 [main] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-13 22:59:28,089 [main] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-13 22:59:58,673 [main] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-13 22:59:58,673 [main] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-13 22:59:58,673 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 22:59:59,533 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 22:59:59,533 [main] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-13 22:59:59,533 [main] com.vytrack.utilities.Driver  - TRYING TO CREATE DRIVER
+INFO    2020-04-13 23:00:04,714 [main] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-13 23:00:09,264 [main] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-13 23:00:32,211 [main] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-13 23:00:32,211 [main] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-13 23:00:32,211 [main] com.vytrack.stepDef.Hook  - #######################
