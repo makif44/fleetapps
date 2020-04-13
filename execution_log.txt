@@ -321,3 +321,33 @@ INFO    2020-04-13 16:15:11,716 [main] com.vytrack.stepDef.LoginStepDef  - Login
 INFO    2020-04-13 16:15:40,353 [main] com.vytrack.stepDef.Hook  - Cleanup!
 INFO    2020-04-13 16:15:40,353 [main] com.vytrack.stepDef.Hook  - Test completed!
 INFO    2020-04-13 16:15:40,353 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 16:22:44,718 [pool-1-thread-2] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 16:22:44,720 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-13 16:22:44,718 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 16:22:44,722 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-13 16:22:50,962 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-13 16:22:50,962 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-13 16:22:51,285 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-13 16:22:53,792 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+ERROR   2020-04-13 16:22:55,873 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test failed
+DEBUG   2020-04-13 16:23:06,357 [Finalizer] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager is shutting down
+DEBUG   2020-04-13 16:23:06,358 [Finalizer] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager shut down
+INFO    2020-04-13 16:23:06,373 [pool-1-thread-2] com.vytrack.stepDef.Hook  - #######################
+ERROR   2020-04-13 16:23:08,494 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test failed
+INFO    2020-04-13 16:23:13,978 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 16:47:36,086 [pool-1-thread-2] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 16:47:36,088 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-13 16:47:36,086 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 16:47:36,091 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-13 16:47:36,092 [pool-1-thread-2] com.vytrack.utilities.Driver  - TRYING TO CREATE DRIVER
+INFO    2020-04-13 16:47:36,092 [pool-1-thread-1] com.vytrack.utilities.Driver  - TRYING TO CREATE DRIVER
+INFO    2020-04-13 16:47:42,217 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-13 16:47:42,217 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-13 16:47:46,302 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-13 16:47:46,419 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-13 16:48:12,042 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-13 16:48:12,042 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-13 16:48:12,042 [pool-1-thread-2] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-13 16:48:26,242 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-13 16:48:26,242 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-13 16:48:26,242 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
