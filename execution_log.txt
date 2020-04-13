@@ -1,0 +1,187 @@
+INFO    2020-04-10 17:01:40,194 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-10 17:01:40,196 [main] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-10 17:01:50,578 [main] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-10 17:01:53,702 [main] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-10 17:02:22,491 [main] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-10 17:02:22,491 [main] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-10 17:02:22,491 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-10 17:04:30,598 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-10 17:04:30,599 [main] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-10 17:04:36,568 [main] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-10 17:04:39,495 [main] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-10 17:05:07,914 [main] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-10 17:05:07,914 [main] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-10 17:05:07,914 [main] com.vytrack.stepDef.Hook  - #######################
+DEBUG   2020-04-10 23:45:19,067 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: standard
+DEBUG   2020-04-10 23:45:19,083 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2020-04-10 23:45:19,085 [main] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG   2020-04-10 23:45:19,116 [main] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG   2020-04-10 23:45:19,117 [main] org.apache.http.impl.execchain.MainClientExec  - Opening connection {s}->https://raw.githubusercontent.com:443
+DEBUG   2020-04-10 23:45:19,204 [main] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to raw.githubusercontent.com/151.101.16.133:443
+DEBUG   2020-04-10 23:45:19,207 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Connecting socket to raw.githubusercontent.com/151.101.16.133:443 with timeout 0
+DEBUG   2020-04-10 23:45:19,428 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+DEBUG   2020-04-10 23:45:19,428 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+DEBUG   2020-04-10 23:45:19,429 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Starting handshake
+DEBUG   2020-04-10 23:45:19,840 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Secure session established
+DEBUG   2020-04-10 23:45:19,841 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated protocol: TLSv1.2
+DEBUG   2020-04-10 23:45:19,841 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+DEBUG   2020-04-10 23:45:19,846 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+DEBUG   2020-04-10 23:45:19,847 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+DEBUG   2020-04-10 23:45:19,847 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+DEBUG   2020-04-10 23:45:19,848 [main] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.1.7:64662<->151.101.16.133:443
+DEBUG   2020-04-10 23:45:19,848 [main] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 30000
+DEBUG   2020-04-10 23:45:19,849 [main] org.apache.http.impl.execchain.MainClientExec  - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+DEBUG   2020-04-10 23:45:19,849 [main] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+DEBUG   2020-04-10 23:45:19,850 [main] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+DEBUG   2020-04-10 23:45:19,853 [main] org.apache.http.headers  - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+DEBUG   2020-04-10 23:45:19,854 [main] org.apache.http.headers  - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+DEBUG   2020-04-10 23:45:19,854 [main] org.apache.http.headers  - http-outgoing-0 >> Connection: keep-alive
+DEBUG   2020-04-10 23:45:19,854 [main] org.apache.http.headers  - http-outgoing-0 >> Host: raw.githubusercontent.com
+DEBUG   2020-04-10 23:45:19,854 [main] org.apache.http.headers  - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG   2020-04-10 23:45:19,854 [main] org.apache.http.wire  - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+DEBUG   2020-04-10 23:45:19,855 [main] org.apache.http.wire  - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+DEBUG   2020-04-10 23:45:19,855 [main] org.apache.http.wire  - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+DEBUG   2020-04-10 23:45:19,855 [main] org.apache.http.wire  - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+DEBUG   2020-04-10 23:45:19,855 [main] org.apache.http.wire  - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2020-04-10 23:45:19,855 [main] org.apache.http.wire  - http-outgoing-0 >> "[\r][\n]"
+DEBUG   2020-04-10 23:45:19,938 [main] org.apache.http.wire  - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2020-04-10 23:45:19,938 [main] org.apache.http.wire  - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG   2020-04-10 23:45:19,938 [main] org.apache.http.wire  - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+DEBUG   2020-04-10 23:45:19,938 [main] org.apache.http.wire  - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+DEBUG   2020-04-10 23:45:19,938 [main] org.apache.http.wire  - http-outgoing-0 << "ETag: W/"5bc052549d03206c46d63f91693fb475d692dc48a41e45c19c1c327e6c317774"[\r][\n]"
+DEBUG   2020-04-10 23:45:19,940 [main] org.apache.http.wire  - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+DEBUG   2020-04-10 23:45:19,940 [main] org.apache.http.wire  - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG   2020-04-10 23:45:19,940 [main] org.apache.http.wire  - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+DEBUG   2020-04-10 23:45:19,940 [main] org.apache.http.wire  - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG   2020-04-10 23:45:19,940 [main] org.apache.http.wire  - http-outgoing-0 << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+DEBUG   2020-04-10 23:45:19,940 [main] org.apache.http.wire  - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+DEBUG   2020-04-10 23:45:19,940 [main] org.apache.http.wire  - http-outgoing-0 << "X-GitHub-Request-Id: EF34:1ABE:5688:7488:5E90D4FE[\r][\n]"
+DEBUG   2020-04-10 23:45:19,941 [main] org.apache.http.wire  - http-outgoing-0 << "Content-Length: 761[\r][\n]"
+DEBUG   2020-04-10 23:45:19,941 [main] org.apache.http.wire  - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+DEBUG   2020-04-10 23:45:19,941 [main] org.apache.http.wire  - http-outgoing-0 << "Date: Fri, 10 Apr 2020 20:45:19 GMT[\r][\n]"
+DEBUG   2020-04-10 23:45:19,941 [main] org.apache.http.wire  - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+DEBUG   2020-04-10 23:45:19,941 [main] org.apache.http.wire  - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG   2020-04-10 23:45:19,941 [main] org.apache.http.wire  - http-outgoing-0 << "X-Served-By: cache-lcy19271-LCY[\r][\n]"
+DEBUG   2020-04-10 23:45:19,941 [main] org.apache.http.wire  - http-outgoing-0 << "X-Cache: HIT, HIT[\r][\n]"
+DEBUG   2020-04-10 23:45:19,941 [main] org.apache.http.wire  - http-outgoing-0 << "X-Cache-Hits: 9, 1[\r][\n]"
+DEBUG   2020-04-10 23:45:19,941 [main] org.apache.http.wire  - http-outgoing-0 << "X-Timer: S1586551520.913756,VS0,VE0[\r][\n]"
+DEBUG   2020-04-10 23:45:19,942 [main] org.apache.http.wire  - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+DEBUG   2020-04-10 23:45:19,942 [main] org.apache.http.wire  - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2020-04-10 23:45:19,942 [main] org.apache.http.wire  - http-outgoing-0 << "X-Fastly-Request-ID: 24b4a061b0d56c94897932346fbb88bfda437d3d[\r][\n]"
+DEBUG   2020-04-10 23:45:19,942 [main] org.apache.http.wire  - http-outgoing-0 << "Expires: Fri, 10 Apr 2020 20:50:19 GMT[\r][\n]"
+DEBUG   2020-04-10 23:45:19,942 [main] org.apache.http.wire  - http-outgoing-0 << "Source-Age: 168[\r][\n]"
+DEBUG   2020-04-10 23:45:19,943 [main] org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+DEBUG   2020-04-10 23:45:19,943 [main] org.apache.http.wire  - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x95][0xcb][0x8e][0xdb]0[0xc]E[0xf7][0xf9][\n]"
+DEBUG   2020-04-10 23:45:19,943 [main] org.apache.http.wire  - http-outgoing-0 << "[0x1][0xb3]i[0x17]#[[0xf]Kv[0x0]m[0xfa]\[\r][0xba]h[0xc0]I[0x94][0xc4][0x18]'[\n]"
+DEBUG   2020-04-10 23:45:19,943 [main] org.apache.http.wire  - http-outgoing-0 << "dg[0xd2][0xf6][0xeb]KQ[0x8f][0xf1][0x4]-[0xd0][0xe5]=&)B[0xd4][0xa5][0x1f][0xc8][0x8f][0xe3]0[0x91][0xfd]0Z[0xb2]u[0xe7][0xb9][0x1f][0xce][0x13][0x99][0x8f][0x96]<[0x9f][0xdd][0xed]L^[0xac][0x9f][0x6][0x7]h[0xef]<[0xd9][0xf9]!h[0xf2]n3[0x9c]{[0xff][0xeb]=$[0x9c].[0xfd]<l [0xf7]6[0xcc]G[0xcc][0xdb]:[0xef][0xed]tq[0xe7][0xdd]p>[0x90][0x8d]w[0xb7][0xc9][0xfa]\g[0xb5]z [0x1f]"Z[0x93][0xaf][0xce][0x1d] [0xf3][0xe3][0xd1][0xbb][0x93]%[0x8f][0xe4][0x13][0x96]_[0x93]-[0x82]x[0x18][0xc4]wW[0xbf][0xb5]kr[0x9c][0xe7][0xcb][0xba][0xaa][0x96]_)[0x8a][0xe1]z[0xa2][0xce][0x1f][0xaa][0x1d]4<[0xba]~7[0xad]bL[0xcb]L[0xcb]hMe-%U][0xa6][0xb5]ik[0xa0][0xa2]k5e[0xb5]JXwFw[0x88]eCE[0xa1][0xad][0xd1]-[0xd2]ZBp[0x93][0x83][0xb5][0xd1]:[0xe0]V5P>Se[0xb4]BZw[0x94][0xf1]R[0xa3]1[0xba][0x9]X[0xeb][0x9a][0xb2][0xd7]hi[0xb4]D[0xcc];Zb[0x85][0xd1]"@[0xd5][\n]"
+DEBUG   2020-04-10 23:45:19,945 [main] org.apache.http.wire  - http-outgoing-0 << "[0xaa][0xda]\[0x98][0x1b]Ne[0x89]aoT[0x1d]TnLuA[0xc9][0x94][0xa7][0xda][0xa0]xV:([0x96][0x95][\n]"
+DEBUG   2020-04-10 23:45:19,945 [main] org.apache.http.wire  - http-outgoing-0 << "*[0xb7][0xae][0x1a]P"[0x9f][0xa7]dP:G[0x8a][0xa0][0xf2][0xe9]*[0xf4]"[0xca]y[0xa1][0x17]Q[0xce][0xb][0xbd][0x8][0xf1]f[0xc8]O[0xee][0xf7]0[0x8e]=[0xf9]2x[0xbb]w?[0x17]c>[0xd8][0xed][0xb3][0xfb][0xeb][0x94]'[0x18][0xf3][0x1][0xde][0xd3]uC[0xe1][0x85]U[0xa7]X[0xa2]Z$T[0xde][0x8e][0xb6][0x9f][0xec][0xb4][0xda][0xc7][0xba]Z[0x98][0x9a]r[0xb8][0xfd][0x2][0xf8]=`[0xf7][0xa0][0xbe][0x3]pyok[0xc0][0xfd][0x1][0x80][0xd9][0xe5][0xa2]J[0x7][0x0]S+@[0xdd][0x83][0xe6][0x1e][0xc8][0x0]`[0xa6]%[0x5];][0x2][0xec][0x94]/"[0xb0]Sx[0xb9]%[0x5];][0x80][0x6];][0x2][0xec]t[0x9][0xb0][0xd3]%[0xc0]N[0xe1][0xe1][0xe7][0xa2][\r]v[0x1a][0xc0][0xd2][0x93][0xdf].[0xd6][0xf7][0x8b]![0xb9][0xa0][0xff]gH[0x18]8[0xb9][0xfd]|[0xeb][0xbd][0xad]Pes[0xc6][0xf4][0xd7][0x91][0xe1]G[0xb8][0xca][0xa5][\r][0xeb]U[0xa4]`[0xa1][0xe2]B[0xdd]%[0x8][0x6]*&lu[0x82]`[0x9f]bA[0xc6]s>[0xf8][0xe7][0xd5][0x82][0x82][0xa7]X[0xbe]t`[0x9d]c[0x93]s[0xf0]`[0xb8]Q[0xb4]Q[0x14][0xc9]7Q$[0xdb]D[0x91]\[0x13]E2M[0x14][0xc9]3Q$[0xcb]D[0x91][0x1c][0x13][0x5][0x1a]F[0xa4]s[0x92]_[0xf0][0x8b][0xc][0x1d][0xe4][0x8e]e[0xe8]@[0xa4]Fe[0xe8][0x80][0xa7][0xcb][0x90][0xa1][0x3][0x10][0xcb][0xa1]=[\r][[0xef][0xc2][0xdd][0x93][0xcf][0xbb][0xc3]r[0x93][0x9e]&[0xb][0xe0][0x9f][0xe3][0xdb][0xd9][0x17];[0x86][0xc3][0xe9])W@[0xc3][0xd9][0xf3][0xe3]u[0xaa][\n]"
+DEBUG   2020-04-10 23:45:19,946 [main] org.apache.http.wire  - http-outgoing-0 << "{[0xc]E[0xaa][0xd9][0xb9]q[0xaa]nv[0x93][0xc6][0xb9][\n]"
+DEBUG   2020-04-10 23:45:19,946 [main] org.apache.http.wire  - http-outgoing-0 << "[0xb4][0xe5][0xa6][0x85][0x97][0xb]7[0x7][0x1b]/[0x92][0xbc]t[0x99][\n]"
+DEBUG   2020-04-10 23:45:19,946 [main] org.apache.http.wire  - http-outgoing-0 << "[0xf7][0x89]Ay[0xe3]*F;$e[0xd9][0xb2][0xe0][0x3]$i[0xd1][0xf2]0[0xd4]H[0xd2][0x8e][0xe5][0xa2][0x90][0xb4]_[0x19][0xec][0xc6][0x14][0x93]V+[0x13][0x1d]<eL[0x93][0xd2]\[0xbc]}[0x84][0xbf][0xd8][0xdc][0x8f][0xa3][0xdd]E[0xc8][0x8d][0xa2]L3[0xd8]T[0x18][0xc3]LC[0x99][0xe2]][0xec]F[0xd6][0x6][0x96]{S+[0x81]_Ek[0x4][0xec]i[0xd1]E[0xc9][0xc3][0x94]a[0xf5][0xb7][\n]"
+DEBUG   2020-04-10 23:45:19,958 [main] org.apache.http.wire  - http-outgoing-0 << "[0xbf][0xf2][0xda]0[0x90][0x1c]V[0xe7][0x1f][0x1][0xdf]U[0xde];[0x7][0x0][0x0]"
+DEBUG   2020-04-10 23:45:19,959 [main] org.apache.http.headers  - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG   2020-04-10 23:45:19,963 [main] org.apache.http.headers  - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << Cache-Control: max-age=300
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << ETag: W/"5bc052549d03206c46d63f91693fb475d692dc48a41e45c19c1c327e6c317774"
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << X-Frame-Options: deny
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << Via: 1.1 varnish (Varnish/6.0)
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << Content-Encoding: gzip
+DEBUG   2020-04-10 23:45:19,964 [main] org.apache.http.headers  - http-outgoing-0 << X-GitHub-Request-Id: EF34:1ABE:5688:7488:5E90D4FE
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << Content-Length: 761
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << Accept-Ranges: bytes
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << Date: Fri, 10 Apr 2020 20:45:19 GMT
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << Via: 1.1 varnish
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << Connection: keep-alive
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << X-Served-By: cache-lcy19271-LCY
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << X-Cache: HIT, HIT
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << X-Cache-Hits: 9, 1
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << X-Timer: S1586551520.913756,VS0,VE0
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << X-Fastly-Request-ID: 24b4a061b0d56c94897932346fbb88bfda437d3d
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << Expires: Fri, 10 Apr 2020 20:50:19 GMT
+DEBUG   2020-04-10 23:45:19,965 [main] org.apache.http.headers  - http-outgoing-0 << Source-Age: 168
+DEBUG   2020-04-10 23:45:19,970 [main] org.apache.http.impl.execchain.MainClientExec  - Connection can be kept alive indefinitely
+DEBUG   2020-04-10 23:45:19,976 [main] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+DEBUG   2020-04-10 23:45:19,976 [main] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 0
+DEBUG   2020-04-10 23:45:19,976 [main] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+INFO    2020-04-10 23:48:34,809 [main] com.vytrack.runners.test  - Mission completed...
+INFO    2020-04-10 23:50:21,935 [main] com.vytrack.runners.test  - Mission completed...
+INFO    2020-04-10 23:51:36,656 [main] com.vytrack.runners.test  - Mission completed...
+INFO    2020-04-10 23:52:15,093 [main] com.vytrack.runners.test  - Mission completed...
+INFO    2020-04-11 02:27:16,842 [main] com.vytrack.runners.test  - Mission completed...
+INFO    2020-04-11 02:30:55,127 [main] com.vytrack.runners.test  - Mission completed...
+INFO    2020-04-11 17:41:57,253 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-11 17:41:57,255 [main] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-11 17:42:03,759 [main] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-11 17:42:06,635 [main] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-11 17:42:37,820 [main] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-11 17:42:37,820 [main] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-11 17:42:37,820 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-11 18:00:15,921 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-11 18:00:15,923 [main] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-11 18:00:26,052 [main] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-11 18:00:28,894 [main] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-11 18:01:02,224 [main] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-11 18:01:02,224 [main] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-11 18:01:02,225 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-11 18:05:34,385 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-11 18:05:34,386 [main] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-11 18:05:44,504 [main] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-11 18:05:46,814 [main] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-11 18:06:12,732 [main] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-11 18:06:12,737 [main] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-11 18:06:12,737 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-11 18:09:12,238 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-11 18:09:12,239 [main] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-11 18:09:22,304 [main] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-11 18:09:24,237 [main] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-11 18:09:51,139 [main] com.vytrack.stepDef.Hook  - Cleanup!
+INFO    2020-04-11 18:09:51,139 [main] com.vytrack.stepDef.Hook  - Test completed!
+INFO    2020-04-11 18:09:51,143 [main] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-12 15:28:36,523 [pool-1-thread-2] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-12 15:28:36,527 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-12 15:28:36,523 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-12 15:28:36,529 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-12 15:28:47,246 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-12 15:28:47,246 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-12 15:28:50,059 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-12 15:28:52,069 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+ERROR   2020-04-12 15:28:54,273 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test failed
+INFO    2020-04-12 15:29:04,594 [pool-1-thread-2] com.vytrack.stepDef.Hook  - #######################
+ERROR   2020-04-12 15:29:08,854 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test failed
+INFO    2020-04-12 15:29:14,287 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
+DEBUG   2020-04-12 15:29:15,233 [Finalizer] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager is shutting down
+DEBUG   2020-04-12 15:29:15,234 [Finalizer] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager shut down
+DEBUG   2020-04-12 15:29:15,234 [Finalizer] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager is shutting down
+DEBUG   2020-04-12 15:29:15,234 [Finalizer] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager shut down
+INFO    2020-04-12 15:33:04,687 [pool-1-thread-2] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-12 15:33:04,690 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-12 15:33:04,687 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-12 15:33:04,692 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-12 15:33:15,278 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-12 15:33:15,278 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-12 15:33:18,086 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-12 15:33:19,716 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+ERROR   2020-04-12 15:33:21,936 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test failed
+INFO    2020-04-12 15:33:32,315 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
+ERROR   2020-04-12 15:33:42,465 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test failed
+INFO    2020-04-12 15:35:29,719 [pool-1-thread-2] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-12 15:35:29,722 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-12 15:35:29,719 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
+INFO    2020-04-12 15:35:29,724 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test setup
+INFO    2020-04-12 15:35:36,491 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-12 15:35:36,491 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - I am on te login page
+INFO    2020-04-12 15:35:39,497 [pool-1-thread-2] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+INFO    2020-04-12 15:35:41,492 [pool-1-thread-1] com.vytrack.stepDef.LoginStepDef  - Login as a store manager
+ERROR   2020-04-12 15:35:49,544 [pool-1-thread-2] com.vytrack.stepDef.Hook  - Test failed
+DEBUG   2020-04-12 15:35:49,911 [Finalizer] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager is shutting down
+DEBUG   2020-04-12 15:35:49,913 [Finalizer] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager shut down
+INFO    2020-04-12 15:35:49,920 [pool-1-thread-2] com.vytrack.stepDef.Hook  - #######################
+ERROR   2020-04-12 15:35:58,346 [pool-1-thread-1] com.vytrack.stepDef.Hook  - Test failed
+INFO    2020-04-12 15:35:58,638 [pool-1-thread-1] com.vytrack.stepDef.Hook  - #######################
