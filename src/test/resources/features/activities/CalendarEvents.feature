@@ -1,3 +1,4 @@
+@smokeTest
 @calendar_events
 Feature: All calendar events
 
