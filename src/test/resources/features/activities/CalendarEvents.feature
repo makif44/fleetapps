@@ -7,7 +7,7 @@ Feature: All calendar events
     And user logs in as store manager
     Then user navigates to "Activities" then to "Calendar Events"
     And user verifies that column names are displayed
-      | TITLE             |
+      | TITL             |
       | CALENDAR          |
       | START             |
       | END               |

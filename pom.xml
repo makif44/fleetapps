@@ -117,7 +117,9 @@
                             <includes>
                                 <include>**/RegressionRunner.java</include>
                             </includes>
-                            <testFailureIgnore>false</testFailureIgnore>
+                            <rerunFailingTestsCount>3</rerunFailingTestsCount>
+                            <testFailureIgnore>true</testFailureIgnore>
+<!--                            <testFailureIgnore>false</testFailureIgnore>-->
                         </configuration>
                     </plugin>
                 </plugins>
